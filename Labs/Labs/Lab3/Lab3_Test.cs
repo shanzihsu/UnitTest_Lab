@@ -9,9 +9,19 @@ namespace Labs.Lab3
 {
     public class Lab3_Test
     {
-        public void Test_Calculate()
+        public void Test_4_Devide_2_Should_Equal_2()
         {
-            //// Test Logic
+            //// Arrange
+            var first = 4d;
+            var second = 2d;
+            var expected = 2d;
+            var calculator = new Calculator();
+
+            //// Act
+            var actual = calculator.Devide(first, second);
+
+            //// Assert
+            Assert.Equal(actual, expected);
         }
     }
 }

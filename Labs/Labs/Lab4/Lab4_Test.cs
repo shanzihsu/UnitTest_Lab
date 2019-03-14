@@ -3,21 +3,46 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Xunit;
 
 namespace Labs.Lab4
 {
     public class Lab4_Test
     {
-        public void Test_Calculate()
+        [Fact]
+        public void Test_Equal()
         {
-            //// Arrange
-            var expected = 100;
-            var calculate = new Calculator();
+            var a = 1;
+            var b = 1;
+            var c = 2;
 
-            //// Act
-            var actual = calculate.Add(1, 2);
+            //// Equal
 
-            //// Assert
+            //// Not Equal
+        }
+
+        [Fact]
+        public void Test_Same()
+        {
+            var a = new TestData { Data = 1 };
+            var b = new TestData { Data = 1 };
+            var c = a;
+
+            //// Same
+
+
+            //// NotSame
+        }
+
+        [Fact]
+        public void Test_Exception()
+        {
+            var a = 1;
+            var b = 0;
+
+            //// Assert Exception
+
+            //// Record
         }
     }
 }
