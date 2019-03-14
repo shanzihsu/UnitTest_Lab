@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Labs.Lab2
+namespace Labs
 {
     public class Calculator
     {
