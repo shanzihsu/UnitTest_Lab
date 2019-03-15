@@ -90,12 +90,31 @@
     <Compile Include="Calculator.cs" />
     <Compile Include="Lab2\Lab2_Test.cs" />
     <Compile Include="Lab3\Lab3_Test.cs" />
+    <Compile Include="Lab4\Lab4_Test.cs" />
+    <Compile Include="Lab4\TestData.cs" />
+    <Compile Include="Lab5\TestChildData.cs" />
+    <Compile Include="Lab5\TestData.cs" />
+    <Compile Include="Lab5\Test_Lab5.cs" />
+    <Compile Include="Lab6\Lab6\DiscountRateFactory.cs" />
+    <Compile Include="Lab6\Lab6\IDiscountRateFactory.cs" />
+    <Compile Include="Lab6\Lab6\ILevelRepository.cs" />
+    <Compile Include="Lab6\Lab6\ShoppingCart.cs" />
+    <Compile Include="Lab6\Test_DiscountFactory.cs" />
+    <Compile Include="Lab6\Test_ShoppingCart.cs" />
+    <Compile Include="Lab7\Lab7\IRecordRepository.cs" />
+    <Compile Include="Lab7\Lab7\SalePage.cs" />
+    <Compile Include="Lab7\Lab7\SalePageService.cs" />
+    <Compile Include="Lab7\Test_SalePage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Lab1\README.md" />
     <None Include="Lab2\README.md" />
     <None Include="Lab3\README.md" />
+    <None Include="Lab4\README.md" />
+    <None Include="Lab5\README.md" />
+    <None Include="Lab6\README.md" />
+    <None Include="Lab7\README.md" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
