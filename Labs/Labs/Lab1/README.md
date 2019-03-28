@@ -5,7 +5,8 @@
 2.進到 /Lab1/Lab.cs
 
 撰寫入以下程式碼
-    
+
+``` C# 
     [Fact]
     public void Test_1_Add_1_Should_Equal_2()
     {
@@ -20,3 +21,4 @@
         //// Assert
         Assert.Equal(actual, expected);
     }
+```
